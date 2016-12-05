@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package>
-  <name>ros_opencv_sandbox</name>
+  <name>object_highlighting</name>
   <version>0.1.0</version>
-  <description>ROS OpenCV sandbox</description>
+  <description>Highlight objects on a table by using planar segmentation</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="severin.lemaignan@plymouth.ac.uk">Séverin Lemaignan</maintainer>
+  <maintainer email="Christopher.Wallbridge@plymouth.ac.uk">Christopher Wallbridge</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -26,7 +26,7 @@
   <!-- Authors do not have to be maintianers, but could be -->
   <!-- Example: -->
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
-  <author >Séverin Lemaignan</author>
+  <author >Christopher Wallbridge</author>
 
 
   <!-- The *_depend tags are used to specify dependencies -->

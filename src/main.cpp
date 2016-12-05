@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
     message_filters::TimeSynchronizer<sensor_msgs::Image, sensor_msgs::Image> sync(rgb_sub, depth_sub, 3);
     sync.registerCallback(bind(&process, _1, _2 ) );
 
-    ROS_INFO("ros_opencv_sandbox is ready. Waiting for pair of {rgb, depth} images!");
+    ROS_INFO("Waiting for pair of {rgb, depth} images!");
     ros::spin();
 
     return 0;

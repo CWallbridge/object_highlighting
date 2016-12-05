@@ -11,7 +11,7 @@
       <arg name="DEVICE" value="$(arg camera_device)"/>
   </include>
 
-  <node pkg="ros_opencv_sandbox" type="run" name="ros_opencv_sandox" output="screen">
+  <node pkg="object_highlighting" type="run" name="object_highlighting" output="screen">
   </node>
 
 </launch>
